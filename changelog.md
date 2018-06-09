@@ -16,3 +16,6 @@ v1.1
 <li> Added a merge with gap function. Appends with a 1s gap between tracks
 <li> Added an overlay function to allow two tracks to be play at the same time in the file
 
+v1.2
+----
+<li> Added redo/undo functionality

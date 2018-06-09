@@ -38,6 +38,14 @@ class Window:
                                 command = lambda: sound.save(self.tr), state = 'disabled') 
         self.saveButton.pack()
 
+        self.undoButton = Button(master, text = "Undo",
+                                command = lambda: sound.undo(self.tr), state = 'disabled')
+        self.undoButton.pack()
+
+        self.redoButton = Button(master, text = "Redo", 
+                                command = lambda: sound.redo(self.tr), state = 'disabled')
+        self.redoButton.pack()
+
         self.durLabel = Label(master, text = "Track Duration: 0s")
         self.durLabel.pack()
 
@@ -59,6 +67,8 @@ class Window:
         self.saveButton['state'] = 'normal'
         self.repeatButton['state'] = 'normal'
         self.overlayButton['state'] = 'normal'
+        self.undoButton['state'] = 'normal'
+        self.redoButton['state'] = 'normal'
  
 
     def repeatHelp(self):
