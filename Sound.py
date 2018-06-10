@@ -11,9 +11,8 @@ class sound:
         self.stack = []
     
     def save(self):
-        save_path = tkFileDialog.asksaveasfilename(initialdir = "/home/", title = "Where do you want to save the modified file?")
+        save_path = tkFileDialog.asksaveasfilename(initialdir = "/home/", title = "Where do you want to save the modified file?", filetypes = (("mp3 files","*.mp3"), ("all files","*.*")))
         self.track.export(save_path, bitrate = "320k",format = "mp3")
-        
 
     def reverse(self):
         self.stack.append(self.track)
