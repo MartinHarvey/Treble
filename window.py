@@ -1,3 +1,4 @@
+import __main__
 from pydub import AudioSegment
 from Tkinter import Tk, Label, Button, PanedWindow
 import tkFileDialog
@@ -45,6 +46,10 @@ class Window:
         self.redoButton = Button(master, text = "Redo", 
                                 command = lambda: sound.redo(self.tr), state = 'disabled')
         self.redoButton.pack()
+
+        self.closeButton = Button(master, text = "Close Window",
+                                command = master.destroy)
+        self.closeButton.pack()
 
         self.durLabel = Label(master, text = "Track Duration: 0s")
         self.durLabel.pack()

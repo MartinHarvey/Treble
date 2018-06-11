@@ -19,3 +19,6 @@ v1.1
 v1.2
 ----
 <li> Added redo/undo functionality
+
+v1.3
+<li> Added close button

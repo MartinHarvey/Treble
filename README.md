@@ -18,6 +18,7 @@ Roadmap
 <li> Change gain (volume)
 <li> Add more information regarding track
 <li> Add the ability to splice a track(remove certain parts etc.)
+<li> Add keyboard shortcuts
 
 Other
 -----
