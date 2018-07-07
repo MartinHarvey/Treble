@@ -14,7 +14,7 @@ Features
 
 * Repeat a audio file
 
-* Merge two files together without a gap (arvppend a second file to the end of the first)
+* Merge two files together without a gap (append a second file to the end of the first)
 
 * Merge two files together with a gap between tracks of 1s
 
