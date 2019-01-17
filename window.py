@@ -4,10 +4,8 @@ Also includes helper code for some functionality in the sound class.
 
 Martin Harvey 2018
 '''
-import __main__
-from pydub import AudioSegment
-from Tkinter import Tk, Label, Button, PanedWindow
-import tkFileDialog
+
+from Tkinter import Tk, Label, Button
 from Sound import * 
 
 class Window:

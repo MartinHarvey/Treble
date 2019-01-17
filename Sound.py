@@ -8,7 +8,6 @@ Martin Harvey 2018
 '''
 #Importing modules used to open fileDialog and edit AudioSement 
 from pydub import AudioSegment
-from Tkinter import Tk, Label, Button
 import tkFileDialog
 
 '''
@@ -17,6 +16,8 @@ contains the user inputed audio file.
 
 sound also contains all code for applying effects to track and getter functions for the window class.
 '''
+
+
 class sound:
     def __init__(self):
         # Open a file using Tkinter's built in filedialog. The dialog allows a .mp3 file to be opened.
