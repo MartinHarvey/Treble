@@ -1,5 +1,5 @@
 '''
-The Window class si responible for creating the GUI in Treble. The __init__ method creates the button elements and labels in the Interface.
+The Window class is responible for creating the GUI in Treble. The __init__ method creates the button elements and labels in the Interface.
 Also includes helper code for some functionality in the sound class.
 
 Martin Harvey 2018
